@@ -63,7 +63,7 @@ def ask_for_word():
     for pair in word:
         # if the position was a 2 digit number using just pair[0] and pair[1]
         # wouldn't get the whole number so have to use pair[1:]
-        # if the position is only 1 digit (1-9) just make the pair a tupule
+        # if the position is only 1 digit (1-9) just make the pair a tuple
         if len(pair) >= 3:
             tup = (pair[0], pair[1:])
             tuples.append(tup)
