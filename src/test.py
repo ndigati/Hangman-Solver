@@ -24,7 +24,7 @@ def find_word(letters, length, dictionary):
     """
     Return a list of possible solution words given the letters and length
     
-    :param letters: tupules of already known letters
+    :param letters: tuples of already known letters
     :param length: length of solution word
     :param dictionary:  dictionary of possible words
     :return: possible_words: list of possible solution words
